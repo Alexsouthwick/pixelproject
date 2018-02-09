@@ -31,7 +31,8 @@ function draw() {
 
 if (positions.length > 0) {
 	// print(positions[16][1]);
-	image(capture, positions[0][0], (positions[16][1]- (positions[16][1]/3.8)), (positions[14][0] - positions[0][0]), (positions[7][1] - (positions[16][1]-(positions[16][1]/3.8))), positions[0][0], (positions[16][1]-(positions[16][1]/3.8)), (positions[14][0]-positions[0][0]),(positions[7][1]- (positions[16][1]-(positions[16][1]/3.8))));
+  image(capture, positions[0][0], positions[16][1], (positions[14][0] - positions[0][0]), (positions[7][1] - positions[16][1]), positions[0][0], positions[16][1], (positions[14][0]-positions[0][0]),(positions[7][1]- positions[16][1]));
+	// image(capture, positions[0][0], (positions[16][1]- (positions[16][1]/3.8)), (positions[14][0] - positions[0][0]), (positions[7][1] - (positions[16][1]-(positions[16][1]/3.8))), positions[0][0], (positions[16][1]-(positions[16][1]/3.8)), (positions[14][0]-positions[0][0]),(positions[7][1]- (positions[16][1]-(positions[16][1]/3.8))));
   }
 }
 
