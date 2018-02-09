@@ -20,7 +20,6 @@ function setup() {
   tracker.init(pModel);
   tracker.start(capture.elt);
 
-
 }
 
 function draw() {
